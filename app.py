@@ -7,7 +7,7 @@ st.set_page_config(page_title="ATLAS Open Data Contributions", layout="wide")
 
 # Load the project data from the JSON file
 with open("projects.json", "r") as f:
-    contributions = json.load(f)
+    projects = json.load(f)
 
 # Convert the project data to a DataFrame
 df = pd.DataFrame(projects)
