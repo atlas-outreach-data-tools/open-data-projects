@@ -5,6 +5,58 @@ import json
 # Set page configuration to wide layout
 st.set_page_config(page_title="ATLAS Open Data Contributions", layout="wide")
 
+# Detect the theme from the URL query parameters
+theme = st.query_params.get("theme", "light")  # Default to 'light'
+
+# Apply theme styling
+if theme == "dark":
+    st.markdown(
+        """
+        <style>
+        body {
+            background-color: #1e1e1e;
+            color: #ffffff;
+        }
+        .stButton>button {
+            background-color: #333333;
+            color: #ffffff;
+            border: 1px solid #ffffff;
+        }
+        .stMarkdown {
+            color: #ffffff;
+        }
+        img {
+            pointer-events: none; /* Prevent image expansion */
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+else:
+    st.markdown(
+        """
+        <style>
+        img {
+            pointer-events: none; /* Prevent image expansion */
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+
+# CSS for tighter spacing between markdown elements
+st.markdown(
+    """
+    <style>
+    .stMarkdown p {
+        margin: 0px; /* Remove extra margin */
+        line-height: 1.5; /* Adjust line height for closer spacing */
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 # Load the project data from the JSON file
 with open("projects.json", "r") as f:
     projects = json.load(f)
@@ -37,10 +89,13 @@ for i in range(0, len(rows), num_columns):
         if i + j < len(rows):
             project = rows[i + j]
             with col:
-                # Display project card with image, title, author, and link
+                # Display project card with image, name, responsible, email, language, difficulty, tags, and link
                 st.image(project["image"], use_column_width=True)
                 st.markdown(f"### {project['name']}")
-                st.markdown(f"**Author:** {project['author']}")
+                st.markdown(f"**Responsible:** {project['responsible']}")
+                st.markdown(f"**Email:** {project['email']}")
+                st.markdown(f"**Language:** {project['language']}")
+                st.markdown(f"**Difficulty:** {project['difficulty']}")
                 st.markdown(f"**Tags:** {', '.join(project['tags'])}")
                 st.markdown(f"[View Source]({project['link']})", unsafe_allow_html=True)
                 st.markdown("---")

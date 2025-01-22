@@ -1,28 +1,40 @@
 [
     {
         "name": "Project Alpha",
-        "author": "Alice",
+        "responsible": "Alice",
+        "email": "email@email.com",
+        "language": "language",
+        "difficulty": "easy",
         "link": "https://example.com/alpha",
         "tags": ["High school", "Machine Learning"],
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQGw4KMJCqwe9ov7cXcqOTz0BstASoGM_uug&s"
     },
     {
         "name": "Project Beta",
-        "author": "Bob",
+        "responsible": "Bob",
+        "email": "email@email.com",
+        "language": "language",
+        "difficulty": "easy",
         "link": "https://example.com/beta",
         "tags": ["Data Science", "Visualization"],
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQGw4KMJCqwe9ov7cXcqOTz0BstASoGM_uug&s"
     },
     {
         "name": "Project Gamma",
-        "author": "Carol",
+        "responsible": "Carol",
+        "email": "email@email.com",
+        "language": "language",
+        "difficulty": "easy",
         "link": "https://example.com/gamma",
         "tags": ["NLP", "Machine Learning"],
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQGw4KMJCqwe9ov7cXcqOTz0BstASoGM_uug&s"
     },
     {
         "name": "Project Gamma",
-        "author": "Carol",
+        "responsible": "Carol",
+        "email": "email@email.com",
+        "language": "language",
+        "difficulty": "easy",
         "link": "https://example.com/gamma",
         "tags": ["University", "Machine Learning"],
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQGw4KMJCqwe9ov7cXcqOTz0BstASoGM_uug&s"
@@ -30,14 +42,20 @@
     ,
     {
         "name": "Project Gamma",
-        "author": "Carol",
+        "responsible": "Carol",
+        "email": "email@email.com",
+        "language": "language",
+        "difficulty": "easy",
         "link": "https://example.com/gamma",
         "tags": ["NLP", "Machine Learning"],
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQGw4KMJCqwe9ov7cXcqOTz0BstASoGM_uug&s"
     },
     {
         "name": "Project Gamma",
-        "author": "Carol",
+        "responsible": "Carol",
+        "email": "email@email.com",
+        "language": "language",
+        "difficulty": "easy",
         "link": "https://example.com/gamma",
         "tags": ["NLP", "Machine Learning"],
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQGw4KMJCqwe9ov7cXcqOTz0BstASoGM_uug&s"
