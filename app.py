@@ -12,9 +12,6 @@ with open("projects.json", "r") as f:
 # Convert the project data to a DataFrame
 df = pd.DataFrame(projects)
 
-# Title of the app
-st.title("ATLAS Open Data Contributions")
-
 # Tag selection for filtering
 all_tags = sorted(set(tag for tags in df["tags"] for tag in tags))
 selected_tags = st.multiselect("Filter by tags:", options=all_tags)
