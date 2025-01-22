@@ -32,7 +32,7 @@ To add a new entry to the project database, edit the `projects.json` file. Each 
 ├── README.md             # This readme file
 ├── app.py                # Main Streamlit application
 ├── projects.json         # JSON file containing project data
-├── requirements.txt
+├── requirements.txt      # Required versions for the app
 ├── image/                # Folder for storing local images (not created yet, feel free to do so!)
 │   ├── your_image.png    # Example local image
 ```
