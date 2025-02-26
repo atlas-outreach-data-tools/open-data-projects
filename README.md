@@ -9,13 +9,13 @@ To add a new entry to the project database, edit the `projects.json` file. Each 
 {
     "name": "Project Gamma",
     "responsible": "Carol",
-    "email": "email@email.com",
     "language": "language",
+    "programming":["Python","C++"],
     "difficulty": "easy",
+    "length":"1 h",
     "link": "https://example.com/gamma",
-    "tags": ["NLP", "Machine Learning"],
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQGw4KMJCqwe9ov7cXcqOTz0BstASoGM_uug&s"
-}
+},
 ```
 
 ## Image Guidelines

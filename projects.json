@@ -1,63 +1,63 @@
 [
     {
-        "name": "Project Alpha",
-        "responsible": "Alice",
-        "email": "email@email.com",
-        "language": "language",
-        "difficulty": "easy",
-        "link": "https://example.com/alpha",
-        "tags": ["High school", "Machine Learning"],
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQGw4KMJCqwe9ov7cXcqOTz0BstASoGM_uug&s"
+        "name": "OpenAtlasDataLab",
+        "responsible": "[Christian Ohm](mailto:christian.ohm@cern.ch) (KTH)",
+        "language": "Swedish",
+        "programming":["Python","ROOT"],
+        "difficulty": "3rd year undergrad level",
+        "length":"4 hours",
+        "link": "https://github.com/cohm/OpenAtlasDataLab",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/KTH_Royal_Institute_of_Technology_logo.svg/1200px-KTH_Royal_Institute_of_Technology_logo.svg.png"
     },
     {
-        "name": "Project Beta",
-        "responsible": "Bob",
-        "email": "email@email.com",
-        "language": "language",
-        "difficulty": "easy",
-        "link": "https://example.com/beta",
-        "tags": ["Data Science", "Visualization"],
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQGw4KMJCqwe9ov7cXcqOTz0BstASoGM_uug&s"
+        "name": "OpenDataZmassLab",
+        "responsible": "[Christian Ohm](mailto:christian.ohm@cern.ch) (KTH)",
+        "language": "English",
+        "programming":["Python","ROOT"],
+        "difficulty": "1st year master level",
+        "length":"4 hours",
+        "link": "https://github.com/cohm/OpenDataZmassLab/tree/SH1015",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/KTH_Royal_Institute_of_Technology_logo.svg/1200px-KTH_Royal_Institute_of_Technology_logo.svg.png"
+    },
+    {
+        "name": "Final Project ZBoson and Search for New Resonances with ATLAS",
+        "responsible": "[Marjorie Shapiro](mailto:) (UC Berkeley)",
+        "language": "English",
+        "programming":["Python"],
+        "difficulty": "3rd year undergrad level",
+        "length":"4 hours",
+        "link": "https://github.com/mdshapiroLBL/phy129_fall_2023/tree/main/Final%20Project/Final%20Project%20ZBoson%20and%20Search%20for%20New%20Resonances%20with%20ATLAS",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8jIgqKkbqA8jL_rzz8-x-MM05TtjfmVFuLQ&s"
     },
     {
         "name": "Project Gamma",
         "responsible": "Carol",
-        "email": "email@email.com",
         "language": "language",
+        "programming":["Python","C++"],
         "difficulty": "easy",
+        "length":"1 h",
         "link": "https://example.com/gamma",
-        "tags": ["NLP", "Machine Learning"],
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQGw4KMJCqwe9ov7cXcqOTz0BstASoGM_uug&s"
-    },
-    {
-        "name": "Project Gamma",
-        "responsible": "Carol",
-        "email": "email@email.com",
-        "language": "language",
-        "difficulty": "easy",
-        "link": "https://example.com/gamma",
-        "tags": ["University", "Machine Learning"],
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQGw4KMJCqwe9ov7cXcqOTz0BstASoGM_uug&s"
     }
     ,
     {
         "name": "Project Gamma",
         "responsible": "Carol",
-        "email": "email@email.com",
         "language": "language",
+        "programming":["Python","C++"],
         "difficulty": "easy",
+        "length":"1 h",
         "link": "https://example.com/gamma",
-        "tags": ["NLP", "Machine Learning"],
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQGw4KMJCqwe9ov7cXcqOTz0BstASoGM_uug&s"
     },
     {
         "name": "Project Gamma",
         "responsible": "Carol",
-        "email": "email@email.com",
         "language": "language",
+        "programming":["Python","C++"],
         "difficulty": "easy",
+        "length":"1 h",
         "link": "https://example.com/gamma",
-        "tags": ["NLP", "Machine Learning"],
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQGw4KMJCqwe9ov7cXcqOTz0BstASoGM_uug&s"
     }
 

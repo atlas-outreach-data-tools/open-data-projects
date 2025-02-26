@@ -57,6 +57,9 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
+# Removes anchor from titles
+st.html("<style>[data-testid='stHeaderActionElements'] {display: none;}</style>")
+
 # Load the project data from the JSON file
 with open("projects.json", "r") as f:
     projects = json.load(f)
@@ -65,17 +68,20 @@ with open("projects.json", "r") as f:
 df = pd.DataFrame(projects)
 
 # Tag selection for filtering
-all_tags = sorted(set(tag for tags in df["tags"] for tag in tags))
-selected_tags = st.multiselect("Filter by tags:", options=all_tags)
+all_tags = sorted(set(tag for tags in df["programming"] for tag in tags))
+selected_tags = st.multiselect("Filter by programming language:", options=all_tags)
 
 # Filter projects based on selected tags
 if selected_tags:
-    filtered_contributions = df[df["tags"].apply(lambda x: any(tag in x for tag in selected_tags))]
+    filtered_contributions = df[df["programming"].apply(lambda x: any(tag in x for tag in selected_tags))]
 else:
     filtered_contributions = df
 
 # Define the number of columns per row
 num_columns = 5  # Adjust the number of columns as needed
+
+# Organize by alphabetical order
+filtered_contributions = filtered_contributions.sort_values(by="name")
 
 # Display projects in a grid layout
 rows = []
@@ -91,11 +97,11 @@ for i in range(0, len(rows), num_columns):
             with col:
                 # Display project card with image, name, responsible, email, language, difficulty, tags, and link
                 st.image(project["image"], use_column_width=True)
-                st.markdown(f"### {project['name']}")
+                st.markdown(f"<h3>{project['name']}</h3>", unsafe_allow_html=True)
                 st.markdown(f"**Responsible:** {project['responsible']}")
-                st.markdown(f"**Email:** {project['email']}")
                 st.markdown(f"**Language:** {project['language']}")
+                st.markdown(f"**Programming language:** {', '.join(project['programming'])}")
                 st.markdown(f"**Difficulty:** {project['difficulty']}")
-                st.markdown(f"**Tags:** {', '.join(project['tags'])}")
+                st.markdown(f"**Length:** {project['length']}")
                 st.markdown(f"[View Source]({project['link']})", unsafe_allow_html=True)
                 st.markdown("---")
