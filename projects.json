@@ -28,37 +28,6 @@
         "length":"4 hours",
         "link": "https://github.com/mdshapiroLBL/phy129_fall_2023/tree/main/Final%20Project/Final%20Project%20ZBoson%20and%20Search%20for%20New%20Resonances%20with%20ATLAS",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8jIgqKkbqA8jL_rzz8-x-MM05TtjfmVFuLQ&s"
-    },
-    {
-        "name": "Project Gamma",
-        "responsible": "Carol",
-        "language": "language",
-        "programming":["Python","C++"],
-        "difficulty": "easy",
-        "length":"1 h",
-        "link": "https://example.com/gamma",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQGw4KMJCqwe9ov7cXcqOTz0BstASoGM_uug&s"
-    }
-    ,
-    {
-        "name": "Project Gamma",
-        "responsible": "Carol",
-        "language": "language",
-        "programming":["Python","C++"],
-        "difficulty": "easy",
-        "length":"1 h",
-        "link": "https://example.com/gamma",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQGw4KMJCqwe9ov7cXcqOTz0BstASoGM_uug&s"
-    },
-    {
-        "name": "Project Gamma",
-        "responsible": "Carol",
-        "language": "language",
-        "programming":["Python","C++"],
-        "difficulty": "easy",
-        "length":"1 h",
-        "link": "https://example.com/gamma",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQGw4KMJCqwe9ov7cXcqOTz0BstASoGM_uug&s"
     }
 
 ]
