@@ -21,13 +21,23 @@
     },
     {
         "name": "Final Project ZBoson and Search for New Resonances with ATLAS",
-        "responsible": "[Marjorie Shapiro](mailto:) (UC Berkeley)",
+        "responsible": "[Marjorie Shapiro](mailto:mdshapiro@lbl.gov) (UC Berkeley)",
         "language": "English",
         "programming":["Python"],
         "difficulty": "3rd year undergrad level",
         "length":"4 hours",
         "link": "https://github.com/mdshapiroLBL/phy129_fall_2023/tree/main/Final%20Project/Final%20Project%20ZBoson%20and%20Search%20for%20New%20Resonances%20with%20ATLAS",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8jIgqKkbqA8jL_rzz8-x-MM05TtjfmVFuLQ&s"
+    },
+    {
+        "name": "LHC particle physics concepts",
+        "responsible": "[Pantelis Kontaxakis](mailto:pantelis.kontaxakis@cern.ch) (University of Geneva)",
+        "language": "English",
+        "programming":["Python","ROOT"],
+        "difficulty": "Masters level",
+        "length":"6-7 hours",
+        "link": "https://github.com/pkontaxa/OpenData_Unige/tree/main",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Uni_GE_logo.svg/1280px-Uni_GE_logo.svg.png"
     }
 
 ]
