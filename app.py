@@ -96,7 +96,7 @@ for i in range(0, len(rows), num_columns):
             project = rows[i + j]
             with col:
                 # Display project card with image, name, responsible, email, language, difficulty, tags, and link
-                st.image(project["image"], use_column_width=True)
+                st.image(project["image"], use_container_width=True)
                 st.markdown(f"<h3>{project['name']}</h3>", unsafe_allow_html=True)
                 st.markdown(f"**Responsible:** {project['responsible']}")
                 st.markdown(f"**Language:** {project['language']}")
