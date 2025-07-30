@@ -38,6 +38,16 @@
         "length":"6-7 hours",
         "link": "https://github.com/pkontaxa/OpenData_Unige/tree/main",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Uni_GE_logo.svg/1280px-Uni_GE_logo.svg.png"
+    },
+    {
+        "name": "HEP Data Analysis Tutorial with the Scientific Python Ecosystem",
+        "responsible": "[Vangelis Kourlitis](kourlitisV@hotmail.com) (Aristotle University of Thessaloniki)",
+        "language": "English",
+        "programming":["Python"],
+        "difficulty": "Masters level",
+        "length":"10 hours",
+        "link": "https://github.com/ekourlit/auth-tutorial-columnar-HEP",
+        "image": "https://www.auth.gr/wp-content/uploads/banner-horizontal-default-en.png"
     }
 
 ]
