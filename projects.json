@@ -2,9 +2,9 @@
     {
         "name": "OpenAtlasDataLab",
         "responsible": "[Christian Ohm](mailto:christian.ohm@cern.ch) (KTH)",
-        "language": "Swedish",
+        "language": "English",
         "programming":["Python","ROOT"],
-        "difficulty": "3rd year undergrad level",
+        "difficulty": "1st year master level",
         "length":"4 hours",
         "link": "https://github.com/cohm/OpenAtlasDataLab",
         "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/KTH_Royal_Institute_of_Technology_logo.svg/1200px-KTH_Royal_Institute_of_Technology_logo.svg.png"
@@ -12,9 +12,9 @@
     {
         "name": "OpenDataZmassLab",
         "responsible": "[Christian Ohm](mailto:christian.ohm@cern.ch) (KTH)",
-        "language": "English",
+        "language": "Swedish",
         "programming":["Python","ROOT"],
-        "difficulty": "1st year master level",
+        "difficulty": "3rd year undergrad level",
         "length":"4 hours",
         "link": "https://github.com/cohm/OpenDataZmassLab/tree/SH1015",
         "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/KTH_Royal_Institute_of_Technology_logo.svg/1200px-KTH_Royal_Institute_of_Technology_logo.svg.png"
