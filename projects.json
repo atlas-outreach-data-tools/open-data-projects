@@ -68,6 +68,16 @@
         "length":"3 hours",
         "link": "https://github.com/els285/Intro2NN4Physics",
         "image": "https://assets.manchester.ac.uk/logos/hi-res/TAB_UNI_MAIN_logo/Coloured_backgrounds/TAB_col_background.png"
+    },
+    {
+        "name": "Analysis Grand Challenge of the PHYSLITE data format",
+        "responsible": "[Alexander Held](alexander.held@cern.ch) (University of Wisconsin Madison)",
+        "language": "English",
+        "programming":["Python"],
+        "difficulty": "Advanced Undergrad",
+        "length":"3 hours",
+        "link": "https://github.com/iris-hep/agc-physlite",
+        "image": "https://iris-hep.org/assets/logos/Iris-hep-4-no-long-name.png"
     }
 
 ]
