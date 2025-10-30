@@ -49,7 +49,9 @@ Ensure the following are installed:
 
 ### Running the App
 
-1. Clone the repository.
+#### With `pip` or `uv`
+
+1. Clone the repository and navigate to the top level directory.
 
 2. Install dependencies using:
 
@@ -60,6 +62,18 @@ Ensure the following are installed:
 ```streamlit run app.py```
 
 4. Access the app in your browser at http://localhost:8501.
+
+#### With Pixi
+
+1. Install [Pixi](https://pixi.sh/).
+
+2. Clone the repository and navigate to the top level directory.
+
+3. Run
+
+```
+pixi run start
+```
 
 ## Contribution Guidelines
 
