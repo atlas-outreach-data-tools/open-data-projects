@@ -78,6 +78,16 @@
         "length":"3 hours",
         "link": "https://github.com/iris-hep/agc-physlite",
         "image": "https://iris-hep.org/assets/logos/Iris-hep-4-no-long-name.png"
+    },
+    {
+        "name": "Discovering the Higgs Boson with ATLAS Open Data",
+        "responsible": "[Jean-François Arguin](jean-francois.arguin@umontreal.ca) (University of Montreal)",
+        "language": "English, French",
+        "programming":["Python"],
+        "difficulty": "Advanced Undergrad",
+        "length":"8 hours",
+        "link": "https://arguinj.github.io/atlas-opendata-higgs-project/",
+        "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/3/35/UdeM_CoA.svg/330px-UdeM_CoA.svg.png"
     }
 
 ]
